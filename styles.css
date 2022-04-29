@@ -3,9 +3,9 @@
     background-image: url("./img/portrait01.jpg");
     background-size: 110%;
     color: rgb(36, 0, 168);
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 800px;
+    padding-top: 100px;
     padding-bottom: 5px;
     font-size: 125%;
 }
@@ -22,13 +22,13 @@ h2 {
 
 a {
     font-family: Times;
-    font-size: 100%;
+    font-size: 110%;
     color: rgb(31, 100, 179);
 }
 
 p {
     font-family: Arial Narrow;
-    font-size: 100%;
+    font-size: 110%;
 }
 
 .embed-youtube {
