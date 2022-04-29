@@ -1,6 +1,7 @@
 .theme-custom body {
     background: rgb(211, 211, 211);
-    background-image: "./img/portrait01.jpg";
+    background-image: url("./img/portrait01.jpg");
+    background-size: 110%;
     color: rgb(36, 0, 168);
     padding-left: 250px;
     padding-right: 250px;
