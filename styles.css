@@ -1,27 +1,32 @@
-.theme-black body {
-    background: black;
-    color: white;
-    padding: 30px;
+.theme-custom body {
+    background: rgb(211, 211, 211);
+    background-image: "./img/portrait01.jpg";
+    color: rgb(36, 0, 168);
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 125%;
 }
 
 h1 {
-    font-family: verdana;
+    font-family: Helvetica;
     font-size: 250%;
 }
 
 h2 {
-    font-family: verdana;
+    font-family: Helvetica;
     font-size: 150%;
 }
 
 a {
-    font-family: courier;
+    font-family: Times;
     font-size: 100%;
-    color: chartreuse;
+    color: rgb(31, 100, 179);
 }
 
 p {
-    font-family: courier;
+    font-family: Arial Narrow;
     font-size: 100%;
 }
 
@@ -45,3 +50,15 @@ p {
     width: 100%;
     height: 100%;
 }
+
+.footer {
+    left: 0px;  
+    right: 0px;   
+    width: 100%;
+    bottom: 0px;
+    background-color: #D3D3D3;  
+    color: black;  
+    text-align: center;
+    padding: 10px;
+    font-size: 110%;
+  } 
