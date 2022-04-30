@@ -2,6 +2,7 @@ body {
     background: rgb(211, 211, 211);
     background-image: url("./img/portrait01.jpg");
     background-size: cover; 
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     color: rgb(36, 0, 168);
     padding-left: 10%;
