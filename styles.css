@@ -1,12 +1,13 @@
-.theme-custom body {
+body {
     background: rgb(211, 211, 211);
     background-image: url("./img/portrait01.jpg");
-    background-size: 110%;
+    background-size: cover; 
+    background-repeat: no-repeat;
     color: rgb(36, 0, 168);
-    padding-left: 200px;
-    padding-right: 800px;
-    padding-top: 100px;
-    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: ;
+    padding-bottom: ;
     font-size: 125%;
 }
 
