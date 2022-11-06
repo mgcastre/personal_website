@@ -4,10 +4,11 @@ body {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     color: rgb(36, 0, 168);
-    padding-left: 10%;
+    padding-left: 20%;
     padding-right: 20%;
-    padding-top: 0%;
+    padding-top: 5%;
     padding-bottom: 0%;
+    font-family: Arial;
     font-size: 125%;
 }
 
@@ -21,6 +22,11 @@ h2 {
     font-size: 150%;
 }
 
+h3 {
+    font-family: Helvetica;
+    font-size: 100%;
+}
+
 a {
     font-family: Times;
     font-size: 110%;
@@ -28,20 +34,39 @@ a {
 }
 
 p {
-    font-family: Arial Narrow;
     font-size: 110%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .embed-youtube {
     position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+.embed-youtube {
+    position: relative;
     padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
     /* padding-bottom: 62.5%; - 16:10 aspect ratio */
-    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */ /*
     padding-top: 30px;
     height: 0;
     overflow: hidden;
 }
+*/
 
+/*
 .embed-youtube iframe,
 .embed-youtube object,
 .embed-youtube embed {
@@ -52,6 +77,7 @@ p {
     width: 100%;
     height: 100%;
 }
+*/
 
 .footer {
     left: 0px;  
